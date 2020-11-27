@@ -1,5 +1,5 @@
 {
-  "name": "CptyMBots",
+  "name": "BOT-WhatsApp",
   "version": "1.0.0",
   "description": "bot wa simple",
   "main": "index.js",
@@ -34,15 +34,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AriiqDesign/CptyMBots"
+    "url": "git+https://github.com/RokhimBOT/BOT-WhatsApp"
   },
   "keywords": [
     "k"
   ],
-  "author": "Ahmad Ariiq Khoironi",
+  "author": "Abdur Rokhim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AriiqDesign/CptyMBots/issues"
+    "url": "https://github.com/RokhimBOT/BOT-WhatsApp/issues"
   },
-  "homepage": "https://github.com/AriiqDesign/CptyMBots#readme"
+  "homepage": "https://github.com/RokhimBOT/BOT-WhatsApp#readme"
 }
