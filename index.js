@@ -17,12 +17,12 @@ const menu = require("./lib/menu.js");
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'ALF BOT'; 
-const instagram = 'https://instagram.com/aditiaalfians'; 
-const whatsapp = 'wa.me/6285799496179'; 
-const kapanbotaktif = '24 JAM'; 
-//const grupch1 = 'belum ada grup'; 
-//const grupch2 = 'belum ada grup' ; 
+const BotName = 'Rokhim BOT'; 
+const instagram = 'https://www.instagram.com/kreasi.editing_official/'; 
+const whatsapp = 'wa.me/6287848115476'; 
+const kapanbotaktif = 'Tergantung Jaringan'; 
+//const grupch1 = 'https://chat.whatsapp.com/HRyCdRrYnme7fTegBYWDjp'; 
+//const grupch2 = 'https://t.me/MiMiMBOTWA' ; 
 const
 {
    WAConnection,
@@ -70,11 +70,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@aditiaalfians')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Bot by ig:@kreasi.editing_official')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@aditiaalfians`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@kreasi.editing_official`)
 })
 
 conn.on('message-new', async(m) =>
