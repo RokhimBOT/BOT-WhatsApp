@@ -1,4 +1,4 @@
-## BOT WhatsApp ☂︎
+## BOT-WhatsApp ☂︎
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
