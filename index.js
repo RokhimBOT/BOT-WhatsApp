@@ -21,8 +21,8 @@ const BotName = 'Rokhim BOT';
 const instagram = 'https://www.instagram.com/kreasi.editing_official/'; 
 const whatsapp = 'wa.me/6287848115476'; 
 const kapanbotaktif = 'Tergantung Jaringan'; 
-//const grupch1 = 'https://chat.whatsapp.com/HRyCdRrYnme7fTegBYWDjp'; 
-//const grupch2 = 'https://t.me/MiMiMBOTWA' ; 
+//const grupch1 = ''; 
+//const grupch2 = '' ; 
 const
 {
    WAConnection,
